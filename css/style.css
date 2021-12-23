@@ -4,5 +4,15 @@
 
 body{
 	background-color: #ffffff;
+}
 
+.search__form {
+	width: 350px;
+	height: 40px;
+	border-radius: 6px;
+	background-color: #f5fafe;
+}
+
+.search__strich {
+	background-color: green;
 }
