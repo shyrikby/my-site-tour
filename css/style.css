@@ -18,15 +18,15 @@ body{
 }
 
 
-.user__photo {
+.user-photo {
 	text-decoration: none;
 }
 
-.user__name {
+.user-name {
 	padding-left: 10px;	
 }
 
-.header-menu {
+/* .header-menu {
 }
 .menu {
 
@@ -34,7 +34,7 @@ body{
 
 		}
 
-}
+} */
 
 .header-menu__item, a{
    list-style-type: none;
