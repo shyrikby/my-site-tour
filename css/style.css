@@ -17,16 +17,28 @@ body{
 	background-color: green;
 }
 
-.user {
-
-}
 
 .user__photo {
+	text-decoration: none;
 }
 
 .user__name {
-	padding-left: 10px;
+	padding-left: 10px;	
 }
 
+.header-menu {
+}
+.menu {
 
+		.menu__sidebar {
+
+		}
+
+}
+
+.header-menu__item, a{
+   list-style-type: none;
+	text-decoration: none;
+	color: brown;
+}
 
