@@ -380,5 +380,52 @@ template {
 .container {
   max-width: 1110px;
   margin: auto;
-  border: 5px solid red;
+}
+
+.header {
+  background-color: #fff;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-menu__item, .header a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.search {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.search__form {
+  width: 350px;
+  border-radius: 6px 0 0 6px;
+  padding-left: 23px;
+  padding-right: 12px;
+  background-color: #f8f2f2;
+  color: #3a3636;
+  font-family: Mulish-Regular;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  border: none;
+}
+.search__button {
+  width: 65px;
+  height: 52px;
+  border-radius: 0 6px 6px 0;
+  border: none;
+  background-color: #ec1f46;
 }/*# sourceMappingURL=style.css.map */
